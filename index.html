@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A romantic love letter website with beautiful animations">
+  <meta name="author" content="qzydustin">
+  
+  <!-- Title & Resources -->
+  <title>Love Letter</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  
+  <!-- Configuration -->
+  <script src="config.js"></script>
+</head>
+<body>
+  <!-- Background Music -->
+  <audio loop id="bgm" aria-label="Background music">
+    <source src="bgm.mp3" type="audio/mpeg">
+  </audio>
+  
+  <!-- Main Container -->
+  <div id="main">
+    <!-- Love Letter Content -->
+    <div id="letter" role="article"></div>
+    
+    <!-- Time Counter -->
+    <div id="clock-box" role="timer">
+      <div id="clock-text"></div>
+      <div id="clock"></div>
+    </div>
+    
+    <!-- Animation Canvas -->
+    <canvas id="canvas" aria-label="Animated tree with hearts"></canvas>
+  </div>
+  
+  <!-- Main Script -->
+  <script src="main.js"></script>
+</body>
+</html>
